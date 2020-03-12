@@ -73,7 +73,7 @@ function saveOurData() {
     console.log(saveData);
     // Save it to the localStorage
     localStorage.saveData = JSON.stringify(saveData);
-    console.log("Data from "+tempObject.time+" saved!");  
+    console.log("Data from "+tempObject.time+" saved!");
 }
 
 // Clear your data

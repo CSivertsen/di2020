@@ -18,7 +18,7 @@ map.on('locationerror', onLocationError);
 
 
 function onLocationFound(e) {
-	// find the range of error (e) and create a radius:
+	// find the range of event (e) and create a radius:
     var radius = e.accuracy / 2;
     // place a marker on the map at geolocated point:
     L.marker(e.latlng).addTo(map)
